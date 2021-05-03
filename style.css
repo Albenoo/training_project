@@ -1,0 +1,2812 @@
+:root {
+    --ngjyragrey:#F4F9FC;
+    --ngjyrablu:#2945FB;
+    --ngjyrabardhe:#fff;
+    --ngjyrazeze:#000;
+    --hijezimi: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --roboto:'Roboto',sans-serif;
+ --montserrat:'Montserrat',sans-serif; 
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Lato',sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menyja__larte {
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    background-color: var(--ngjyragrey);
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.menyja__larte__rreshti {
+    width: 100%;
+    min-height: 40px;
+    max-width: 85.7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.menyja__larte__rreshti .menyja__kontakti {
+    flex-basis:610px;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+.menyja__larte__rreshti .menyja__kontakti h4 {
+    color: #A09AA2;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.menyja__kontakti i {
+    color: var(--ngjyrablu);
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+
+.menyja__larte__rreshti .menyja__ikonat {
+    flex-basis:340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.menyja__larte__rreshti .menyja__ikonat i {
+    padding: 8px 8px;
+    margin:  0 3px;
+    align-self: center;
+    text-align: center;
+ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);;
+    background: var(--ngjyrabardhe);
+    color: var(--ngjyrablu);
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+/* ------------ */
+
+.menyja__kryesore {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menyja__kryesore__rreshti {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    max-width: 83%;
+flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+
+.menyja__logo {
+    flex-basis: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menyja__logo__teksti {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.menyja__logo__teksti h1 {
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+    margin:0;
+    font-family:var(--montserrat);
+    padding:0;
+}
+
+.menyja__logo__teksti h4 {
+    font-size:15px;
+    margin:5px 0;
+    padding:0;
+    font-weight:normal;
+}
+.menyja__logo i {
+    margin: 0 10px;
+    font-size: 40px;
+    color: var(--ngjyrablu);
+}
+.menyja__linqet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:750px;
+    flex-wrap: wrap;
+}
+
+.menyja__linqet li {
+    padding: 0 15px;
+    
+} 
+
+.menyja__linqet li  a {
+    color: #223645;
+    font-weight: bold;
+    font-family: 'Lato',sans-serif;
+        text-decoration: none;
+}
+
+.menyja__supporti {
+    flex-basis: 230px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menyja__supporti i {
+    font-size: 30px;
+    color: var(--ngjyrablu);
+}
+
+.support__kolona {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.support__kolona h4 {
+    margin: 5px 10px;
+    font-weight: bold;
+
+    padding: 0 ;
+    color: #223645;
+    font-size: 15px;
+}
+
+
+.support__kolona h4:nth-child(1) {
+    font-weight: normal;
+    color:gray;
+}
+
+/* ------------ */
+
+
+
+.prapavija {
+    width: 100%;
+    padding: 50px 0;
+    min-height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(fotot/background1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.prapavija__rreshti {
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: row;
+    color: white;
+}
+
+.prapavija__rreshti h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+font-family: var(--montserrat);
+
+}
+
+
+.prapavija__rreshti p {
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: var(--roboto);
+    font-weight: 400;
+}
+.prapavija__rreshti h4 {
+    padding: 10px 0;
+    color: white;
+    font-weight: normal;
+}
+
+.prapavija__buttonat {
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    margin:20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.prapavija__buttonat  .prapavija__buttoni {
+    padding: 15px 30px;
+    background-color: var(--ngjyrablu);
+    border: 2px solid #2945FB;
+    
+    box-shadow:var(--hijezimi);
+
+    margin: 10px;
+        font-family: var(--montserrat);
+
+    color: var(--white);
+}
+
+.prapavija__buttoni i {
+    margin: 0 5px;
+}
+
+.prapavija__buttonat .prapavija__buttoni:nth-child(2) {
+ border: 2px solid white;
+ background: transparent;
+
+}
+
+.prapavija__buttoni:hover {
+    background-color: var(--ngjyrablu)!important;
+    border: none!important;
+    transition: 1s linear;
+}
+
+/* ------*/
+.forma__kontaktit {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: var(--ngjyragrey);
+}
+
+.forma__kontaktit__rreshti{
+    width: 100%;
+    min-height: 300px;
+    max-width: 77.6%;
+    margin-top: -155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: var(--hijezimi);
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.forma__kontaktit__foto {
+    flex-basis: 500.1px;
+    background-image: url(fotot/foto3.jfif);
+    min-height: 600px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.forma__kontaktit__foto:hover {
+    filter:brightness(70%);
+    transition: 1s linear all;
+}
+
+
+.kontakti__aplikimi {
+    flex-basis: 728px;
+display: flex;
+min-height: 600px;
+background-color: white;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    
+}
+
+
+.forma__rreshti {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.forma__teksti {
+    width: 300px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#E8F0F5;
+    margin: 15px 10px;
+    box-shadow: var(--hijezimi);
+}
+
+
+
+.forma__teksti input {
+    flex-basis: 80%;
+    min-height: 60px;
+    background: transparent;
+    border: none;
+}
+
+.forma__teksti input:focus {
+    outline: none;
+    border: none;
+}
+
+
+
+.forma__teksti i {
+    color: var(--ngjyrablu);
+    margin: 0 20px;
+}
+
+
+.forma__shtese {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.forma__shtese label {
+    padding: 5px 10px;
+    font-family: var(--montserrat);
+
+    color: #223645;
+    font-weight: bold;
+}
+
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+
+  .forma__buttoni {
+      background: var(--ngjyrablu);
+      align-self: center;
+      box-shadow:var(--hijezimi);
+
+      border: none;
+      color: white;
+      padding: 20px 50px;
+      margin: 10px 0;
+  }
+
+  .forma__buttoni:hover {
+      background-color: #121212;
+      color: var(--ngjyrabardhe);
+      transition: all 1s linear;
+      transform: scale(1.1);
+  }
+
+  .forma__shtese:nth-child(5) {
+    background-color: transparent!important;
+    flex-basis:640px!important;
+    flex-direction: row!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: flex-start!important;
+}
+.forma__teksti:nth-child(1) {
+    display: flex!important;
+    justify-content: center!important;
+    background: transparent;
+    flex-basis:100px!important;
+    box-shadow: none!important;
+    align-items: center;
+}
+
+.kontenti {
+width:100%;
+max-width: 85%;
+display: flex;
+align-items: flex-start;
+margin: 30px 0;
+justify-content: center;
+flex-direction: column;
+}
+
+.kontenti h4 {
+margin: 0;
+font-size: normal;
+color: gray;
+}
+
+.kontenti h1 {
+padding: 20px 0;
+margin: 0;
+font-family: 'Montserrat' ,sans-serif;
+    font-size: 25px;
+}
+
+/* ----------*/
+.destinacioni {
+    width: 100%;
+    min-height: 600px;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.destinacioni__rreshti {
+    width: 100%;
+    max-width: 80%;
+
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.destinacioni__kolona {
+    flex-basis: 602px;
+    margin: 20px 20px;
+display: flex;
+min-height: 400px;
+flex-wrap: wrap;
+align-items: center;
+justify-content: flex-start;
+
+}
+
+.destinacioni__kolona:nth-child(4) {
+    flex-basis: 540px;
+    min-height:300px;
+
+}
+
+.destinacioni__kolona h1 {
+    font-size: 35px;
+        font-family: var(--montserrat);
+
+    color:#223645;
+    font-weight: bold;
+    padding:5px 0;
+    margin:5px 0;
+}
+
+
+.destinacioni__kolona p {
+    color: gray;
+    padding: 0;
+    line-height: 30px;
+    font-family: var(--roboto);
+}
+
+.destinacioni__buttoni {
+    align-self: center;
+    box-shadow:var(--hijezimi);
+
+    background: var(--ngjyrablu);
+    align-self: center;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+}
+
+.destinacioni__buttoni:hover {
+    background-color: #121212;
+    transition: all ease 1s;
+}
+
+
+
+
+.destinacioni__informata  {
+    flex-basis: 592px;
+    min-height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.destinacioni__informata h4 {
+    font-size: 15px;
+    
+    font-weight: normal;
+
+    margin: 5px 0;
+    
+}
+
+.destinacioni__informata h1 {
+    margin:0;
+    padding-bottom: 40px ;
+        font-family: var(--montserrat);
+
+    font-size: 30px;
+    color:#223645
+}
+
+.destinacioni__informata p {
+    font-size: 15px;
+    color: gray;
+    font-family: var(--roboto);
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0 10px;
+    padding: 30px 0;
+}
+
+
+/* ------------*/
+.vendet {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.vendet h1 {
+    padding: 30px 0;
+    font-family: 'Montserrat' , sans-serif;
+    color: #223645;
+    font-weight: bold;
+}
+
+
+.vendet__rreshti {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+}
+
+.vendet__kolona {
+    width:300px;
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    background-size: cover;
+    box-shadow: var(--hijezimi);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.kulla-ajfel {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url(fotot/eiffel.jpg);
+
+}
+
+.kulla-ajfel:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.0), 
+        rgba(0, 0, 0, 0.0)
+      ),url(fotot/eiffel.jpg);
+      transition: 1s linear;
+      transform: scale(1.1 , 1.1);
+}
+
+.koloseumi {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url(fotot/colosseum.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.koloseumi:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.0), 
+        rgba(0, 0, 0, 0.0)
+      ),url(fotot/colosseum.jpg);
+      transition: 1s linear;
+      transform: scale(1.1 , 1.1);
+}
+
+.meteora {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ), url(fotot/meteora.jfif);
+
+}
+
+
+.meteora:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.0), 
+        rgba(0, 0, 0, 0.0)
+      ),url(fotot/meteora.jfif);
+      transition: 1s linear;
+      transform: scale(1.1 , 1.1);
+}
+
+.kapadokia {
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url(fotot/cappadocia.jfif);
+
+}
+
+.kapadokia:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.0), 
+        rgba(0, 0, 0, 0.0)
+      ),url(fotot/cappadocia.jfif);
+      transition: 1s linear;
+      transform: scale(1.1 , 1.1);
+      
+}
+
+.vendet__info {
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.vendet__info h1 {
+    color: white;
+    font-weight: bold;
+    margin :0;
+    font-size: 20px;
+    padding: 0;
+        font-family: var(--montserrat);
+
+}
+
+.vendet__info h4 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.vendet__info i {
+    color: white;
+    margin: 0 5px;
+}
+
+/* --------- */
+.sherbimet {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    background-color: var(--ngjyragrey);
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sherbimet h4 {
+    color: gray;
+    font-family: var(--roboto);
+        font-size: 15px;
+}
+
+
+.sherbimet h1 {
+    font-size: 40px;
+    color: #223645;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.sherbimet__rreshti {
+    width: 100%;
+    min-height: 300px;
+display: flex;
+padding: 30px 0;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.sherbimi {
+    width: 330px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 7px;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+        min-height: 330px;
+}
+
+.sherbimi__informata {
+    width: 100%;
+    display: flex;
+    max-width: 80%;
+    align-items: flex-start;
+    padding: 30px 0;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sherbimi__informata #ikona {
+    font-size: 30px;
+    border-radius: 50px;
+    background-color:var(--ngjyrabardhe);
+box-shadow: 0 4px 6px 0px rgba(63, 92, 255, 0.1), 0 4px 6px 0px rgba(36, 56, 236, 0.06);;
+    color: var(--ngjyrablu);
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.sherbimi__informata #ikona:hover {
+    background-color: var(--ngjyrablu);
+    color: white;
+    transition: 1s all ease-in-out;
+}
+
+
+
+
+.sherbimi__informata h1{
+    font-size: 20px;
+    color:#223645;
+        font-family: var(--montserrat);
+
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.sherbimi__informata p {
+    color: gray;
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    margin: 5px 0;
+}
+
+
+
+.sherbimi__informata .sherbimi__linku {
+padding: 20px 0 ;
+text-decoration: underline;
+    font-family: var(--montserrat);
+
+color: #223645;
+font-weight: bold;
+margin: 10px 0;
+text-underline-offset:5px;
+}
+
+.sherbimi__linku i {
+    margin: 0 10px;
+    
+}
+
+.sherbimet__shigjeta {
+    background-color: white;
+    min-height: 50px;
+    box-shadow: var(--hijezimi);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    width: 50px;
+}
+
+.sherbimet__shigjeta:hover {
+    background-color: #121212;
+    color:white;
+    transition: 1s all ease-in-out;
+}
+
+.sherbimet__shigjeta:hover i {
+    color:white;
+}
+
+.sherbimet__shigjeta i {
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.ikonat__grupi {
+    width: 100%;
+    min-height: 100px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ikonat__grupi #mbushur {
+    color: var(--ngjyrablu);
+    margin: 0 5px;
+}
+
+
+.ikonat__grupi #zbrazet {
+    color: var(--ngjyrablu);
+    font: bold;
+    margin: 0 5px;
+}
+
+.rrethnesh {
+    width: 100%;
+    background-color: var(--ngjyrabardhe);
+    min-height: 500px;
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rrethnesh__rreshti {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    max-width: 85%;
+
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.rrethnesh__majtas {
+    width:630px;
+    background-color: transparent;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rrethnesh__majtas #foto__3 {
+    max-width: 100%;
+    width: 100%;
+    margin: 20px 0;
+    
+    z-index:9999;
+}
+
+
+.foto_grup {
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.foto_grup img {
+    width: 100%;
+}
+.foto_grup .foto__informata {
+    width: 310px;
+    background-color: var(--ngjyrablu);
+    color: var(--ngjyrabardhe);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position:relative;
+    margin: 0 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foto__informata button {
+    padding:15px 30px;
+    background-color: white;
+    box-shadow:var(--hijezimi);
+
+    color:#121212;
+    border: none;
+}
+
+.foto__informata button:hover {
+    background-color: var(--ngjyrablu);
+    color: var(--ngjyrabardhe);
+    transition: 1s linear;
+}
+
+.foto_grup #foto__1 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+}
+
+
+.rrethnesh__djathtas {
+    width: 530px;
+    background-color: transparent;
+    min-height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+}
+
+.rrethnesh__djathtas h1 {
+        font-family: var(--montserrat);
+
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0;
+    color: #223645;
+}
+
+
+
+
+.rrethnesh__djathtas .paragrafi__1 {
+    color: gray;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 30px;
+    font-family: var(--roboto);
+}
+.rrethnesh__djathtas .paragrafi__2 {
+line-height: 30px;
+font-weight: normal;
+margin:5px 0;
+font-family: var(--roboto);
+}
+.rrethnesh__djathtas h4 {
+    color: gray;
+    font-family: var(--roboto);
+    font-size: 15px;
+}
+
+.rrethnesh__djathtas hr {
+    margin: 5px 0;
+    color: gray;
+    width: 100%;
+}
+
+
+
+.rrethnesh__statistikat {
+    width:100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.statistika {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.statistika h1 {
+    color: var(--ngjyrablu);
+    font-weight: bold;
+    font-size: 40px;
+        font-family: var(--montserrat);
+
+    margin: 5px 0;
+}
+
+.statistika h4 {
+    font-weight: 400;
+    color: gray;
+    margin: 5px 0;
+    font-family: var(--roboto);
+    font-weight: bold;
+}
+
+.statistika p  {
+    font-weight: normal;
+    margin: 10px 0;
+    color:#121212;
+}
+
+/* -------- */
+
+.opinionet {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url(fotot/overlay1.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.opinionet h1 {
+    font-size: 40px;
+    color: white;
+        font-family: var(--montserrat);
+
+    text-align: center;
+}
+
+.opinionet h4 {
+    color: white;
+    font-family: var(--roboto);
+}
+
+.opinionet p {
+    font-family: var(--roboto);
+    font-weight:normal;
+    line-height: 20px;
+}
+
+
+.opinionet__rreshti {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    padding: 30px 0;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 85%;
+
+    flex-wrap: wrap;
+    
+}
+
+
+.opinioni {
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+
+.opinioni img {
+    max-width: 100%;
+    width: 100%;
+}
+.opinioni .shoket {
+    width: 700px!important;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+}
+.opinioni__personi {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.opinioni hr {
+    margin:30px 0;
+    width: 100%;
+    color: gray;
+}
+
+
+.opinioni__personi .personi {
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    box-shadow: var(--hijezimi);
+    padding: 0;
+    border-radius: 300px;
+    background: white;
+}
+
+.opinioni__teksti {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.opinioni__teksti h1 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bold;
+}
+
+.opinioni__teksti h4 {
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+.opinioni__ikonat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.opinioni__ikonat i  {
+    color: #F0A142;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.opinioni__ikonatshtese {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+    height: 0;
+}
+
+.opinioni__ikonatshtese i:nth-child(1) {
+    margin:0 auto;
+color: var(--ngjyrablu);
+border-radius: 600px;
+}
+
+
+
+.opinioni__ikonatshtese i:nth-child(2) {
+    margin:0 auto;
+color: var(--ngjyrablu);
+}
+
+/* -------- */
+.arritjet {
+    width:100%;
+    min-height:auto;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap:wrap;
+        min-height:300px;
+
+
+}
+
+.arritjet__rreshti {
+    width:100%;
+
+    min-height:300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width:100%;
+}
+
+.arritja {
+    width:500px;
+    background-color:var(--ngjyrablu);
+    min-height:450px;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arritja:nth-child(1) i {
+    font-size:40px;
+        color:var(--ngjyrabardhe);
+
+    margin:20px 0;
+
+}
+
+.arritja:nth-child(1) h1  {
+    color:var(--ngjyrabardhe);
+
+padding:0 30px;
+font-family:'Montserrat',sans-serif;
+text-align:center;
+}
+
+.arritja:nth-child(1) p {
+        color:var(--ngjyrabardhe);
+
+    font-family:var(--roboto);
+        color:var(--ngjyrabardhe);
+
+    line-height:30px;
+    text-align:center;
+}
+
+.arritja:nth-child(1) .arritja__buttoni {
+    padding:15px 30px;
+    background-color: #121212;
+    border:none;
+    box-shadow:var(--hijezimi);
+
+        color:var(--ngjyrabardhe);
+
+    margin:20px 0;
+}
+
+.arritja:nth-child(2) {
+    width:583px!important;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ), url(fotot/travel.jpg)!important;
+    background-size:cover!important;
+    background-position:center!important;
+}
+
+.arritja:nth-child(2):hover {
+    filter: brightness(80%);
+    transform: scale(1.2);
+    transition: 1s all linear;
+}
+
+
+
+.arritja:nth-child(3) {
+    background-color:#121212;
+}
+.arritja:nth-child(3) i {
+    font-size:40px;
+        color:var(--ngjyrabardhe);
+
+    margin:20px 0;
+
+}
+
+.arritja:nth-child(3) h1  {
+    color:var(--ngjyrabardhe);
+
+padding:0 30px;
+font-family:'Montserrat',sans-serif;
+text-align:center;
+}
+
+.arritja:nth-child(3) p {
+        color:var(--ngjyrabardhe);
+
+    font-family:var(--roboto);
+        color:var(--ngjyrabardhe);
+
+    line-height:30px;
+    text-align:center;
+}
+
+.arritja .arritja__buttoni:hover {
+    transition: 1s  linear!important;
+    color: #121212!important;
+    background-color:var(--ngjyrabardhe)!important;
+
+}
+
+.arritja:nth-child(3) .arritja__buttoni {
+    padding:15px 30px;
+    background-color: var(--ngjyrablu);
+    border:none;
+    box-shadow:var(--hijezimi);
+
+    font-weight:bold;
+        color:var(--ngjyrabardhe);
+
+    font-family:'Roboto',sans-serif;
+    margin:20px 0;
+}
+
+/* --- */
+.stafi {
+    width:100%;
+    min-height:500px;
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    padding: 50px 0;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.stafi__rreshti {
+    width:100%;
+    max-width:85%;
+    min-height:500px;
+    display: flex;
+    margin: 30px 0;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.stafi__teksti {
+    width:600px;
+    min-height:100px;
+    display: flex;
+    align-items:center;
+    margin:10px 0;
+    justify-content:space-between;
+    flex-direction:column;
+}
+
+.stafi__teksti h1 {
+    font-family: var(--roboto);
+    color: #223645;
+    font-weight:bold;
+}
+
+.stafi__ikonat {
+    display:flex;
+    width:100%;
+    min-height:100px;
+    align-items:center;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+}
+
+.stafi__ikonat i {
+    margin:0 10px;
+    border:2px solid gray;
+    padding: 12px 15px;
+    font-weight: 700;
+    color:black;
+    border-radius: 500px;
+}
+
+.stafi__ekipi__rreshti {
+    width:100%;
+    min-height:50px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.stafi__personi {
+    width:395px;
+    background-color: transparent;
+    min-height: 300px;
+    margin: 20px;
+    flex-wrap:wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.stafi__foto {
+    width:100%;
+    min-height:250px;
+    background-image: url(fotot/albenis.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: flex-start;
+    display: flex;
+}
+
+.stafi__2 {
+    background: url(fotot/girl.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+.stafi__3 {
+    background: url(fotot/person2.jfif);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stafi__foto:hover {
+    filter: brightness(50%);
+}
+
+.stafi__info {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stafi__info i {
+    padding: 12px;
+    background: var(--ngjyrablu);
+    color: var(--ngjyrabardhe);
+}
+
+.stafi__info i:hover {
+    background-color: #121212;
+    color: var(--ngjyrabardhe);
+}
+
+
+.stafi__info__kolona h1 {
+    font-size:20px;
+    padding: 2px 0;
+    margin: 0;
+    color: #223645;
+    font-weight: bold;
+        font-family: var(--montserrat);
+
+}
+
+.stafi__info__kolona h4 {
+    margin:  0;
+    padding: 2px 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: #121212;
+    font-weight: 500;
+}
+
+.stafi__info__kolona {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+}
+.abonimi__rreshti {
+    width: 100%;
+    display: flex;
+    min-height: 450px;
+    margin-bottom: -300px;
+    max-width: 94%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.abonimi__rreshti .abonimi__foto {
+    flex-basis: 749.5px;
+min-height:515.5px;
+    background-image: url(fotot/couple.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.abonimi__rreshti .abonimi__foto:hover {
+filter:brightness(70%);
+transition: 1s all linear;
+}
+
+
+.abonimi__teksti {
+    flex-basis: 514.5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--ngjyrablu);
+    flex-direction: column;
+    color: var(--ngjyrabardhe);
+    flex-wrap:wrap;
+
+    min-height:450px;
+}
+
+.abonimi__teksti__rreshti {
+    flex-basis: 514.5px;
+    min-height:450px;
+    max-width: 80%;
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    text-align: left;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.abonimi__rreshti h1 {
+        font-family: var(--montserrat);
+
+    font-weight: bold;
+    font-size: 30px;
+}
+.abonimi__rreshti p {
+margin: 20px 0;
+}
+
+.abonimi__forma {
+    flex-basis: 100%;
+    min-height:50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.abonimi__forma i {
+     padding: 20px 27px; 
+    background: #121212;
+    color:var(--ngjyrabardhe);
+    border: none;
+}
+
+.abonimi__forma i:hover{
+    background-color: var(--ngjyrablu);
+    color: white;
+    transition:1s linear;
+}
+
+.abonimi__forma  input{
+ flex-basis: 341px;
+ min-height:50px;
+ border: none;
+
+}
+
+/* ------ */
+.artikujt {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ngjyragrey);
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+.artikujt h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+    color: #223645;
+}
+
+.artikujt__teksti {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top:400px ;
+}
+
+.artikujt__rreshti {
+    width: 100%;
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px 0;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.artikulli {
+    flex-basis:400px;
+
+    background-color:var(--ngjyrabardhe);
+min-height: 350px;
+display: flex;
+align-items: center;
+box-shadow: var(--hijezimi);
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+margin: 15px;
+}
+
+.artikulli__tekst {
+    width:100%;
+    min-height: 100px;
+    max-width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.artikulli__tekst h1 {
+    font-size: 20px;
+    font-family: 'Montserrat' , sans-serif;
+    color:#223645;
+    font: bold;
+    text-align: left;
+} 
+
+.artikulli__tekst .artikulli__button {
+    padding: 20px 0;
+    background-color: transparent;
+    border: none;
+    font-family: var(--roboto);
+    font-size: 15px;
+    margin: 5px 0;
+
+    color: gray;
+    font-weight: bold;
+}
+
+.artikulli__button:hover {
+    background-color:var(--ngjyrablu);
+    color: var(--ngjyrabardhe);
+    margin: 0 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.artikulli__button i {
+    margin: 0 10px;
+}
+
+
+
+.artikulli__info {
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.artikulli__info h4 {
+    font-family: var(--roboto);
+    font-weight: normal;
+color: rgb(158, 136, 136);
+}
+
+.artikulli__info i {
+    color:var(--ngjyrablu);
+    margin-right:5px;
+}
+
+
+
+
+.artikulli__foto {
+    width: 100%;
+    min-height:250px;
+    background-image: url(fotot/artikull3.jpeg);
+    align-self: flex-start;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+.artikulli__foto:hover {
+    transform: scale(1.1);
+    transition: 0.5s all linear;
+}
+
+.artikulli__1 {
+    background-image: url(fotot/artikull1.jpeg);
+}
+
+.artikulli__2 {
+    background-image: url(fotot/artikull2.jpeg);
+}
+
+.foto__mbi {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    max-width: 95%;
+    padding: 20px 0;
+}
+
+.foto__mbi i {
+    padding: 15px;
+    background-color: var(--ngjyrablu);
+    border-radius: 10px;
+    color: var(--ngjyrabardhe);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto__mbi i:hover {
+    background-color:var(--ngjyrabardhe);
+
+    color:var(--ngjyrablu);
+    transition: 0.5s all linear;
+transform: scale(1.2);
+}
+
+
+.partneret {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.partneret__rreshti {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.partneri {
+    width: 200px;
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.partneri img {
+    max-width: 100%;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.partneri img:hover {
+transition: 0.5s all ease-in-out;
+transform: scale(1.2);
+}
+
+.partneri .foto_shkurt {
+    max-width: 100%;
+    width: 100px;
+}
+
+.partneri .foto_shkurt__2 {
+     max-width: 100%;
+     width: 130px;
+}
+
+.fundi {
+    width: 100%;
+    min-height:400px;
+    display: flex;
+    align-items: center;
+    padding:30px 0;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    background-color: var(--ngjyrablu);
+}
+
+.fundi__rreshti {
+    width: 100%;
+    min-height:400px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width:85%;
+}
+
+.fundi__menyja {
+    width:370px;
+    margin:10px;
+    background-color: transparent;
+    flex-direction: column;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    min-height:350px;
+    flex-wrap:wrap;
+}
+.fundi__menyja h1 {
+        color:var(--ngjyrabardhe);
+font-weight: normal;
+        font-family: var(--montserrat);
+
+}
+
+
+
+.fundi__menyja__logo {
+    width: 100%;
+    min-height:100px;
+    margin: 10px 0;
+        color:var(--ngjyrabardhe);
+
+}
+.fundi__menyja__logo i {
+        color:var(--ngjyrabardhe);
+
+    margin-right: 5px;
+}
+
+
+.fundi__menyja__rreshti {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    margin: 8px 0;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    background-color: transparent;
+}
+
+.fundi__menyja__rreshti nav {
+    margin:0 10px;
+    flex-basis: auto;
+    display: flex;
+    margin: 7.5px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-align: left;
+}
+
+.fundi__menyja__rreshti nav li {
+    padding:5px 0;
+}
+
+.fundi__menyja__rreshti nav li a {
+        color:var(--ngjyrabardhe);
+
+    text-decoration: none;
+    font-family: var(--roboto);
+}
+
+.fundi__menyja__rreshti nav li a i {
+        color:var(--ngjyrabardhe);
+
+    margin-right:10px;
+}
+
+.fundi__menyja__rreshti nav:nth-child(2) {
+flex-basis: 250px;
+    align-self: center;
+}
+
+
+.fundi__artikujt {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.fundi__artikujt__rreshti {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.fundi__artikulli {
+    width:100%;
+    min-height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.fundi__artikulli img {
+    max-width:100%;
+    border-radius: 700px;
+    width:70px;
+    border:2px solid white;
+    padding: px;
+    min-height: 70px;
+    margin-right:20px;
+    object-fit: cover;
+
+    object-position: center;
+}
+
+.fundi__artikulli img:hover {
+    filter: brightness(70%);
+
+    border: none;
+transition: 1s all ease-in-out;
+}
+
+.fundi__artikulli__teksti {
+    display: flex;
+    flex-basis: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+}
+
+.fundi__artikulli__teksti h1 {
+    font-size:18px;
+    margin:2px 0;
+    font-weight: bold;
+    font-family: 'Montserrat, sans-serif;
+}
+
+.fundi__artikulli__teksti h4 {
+    padding:0;
+    margin:5px 0;
+    font-weight: normal;
+    color: white;
+    font-family: var(--roboto);
+}
+
+.fundi__artikulli__teksti i {
+        color:var(--ngjyrabardhe);
+
+    margin-right:10px;
+}
+
+.fundi__galeria {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.teksti__majtas {
+    width:100%;
+    color:white;
+    font-size:20px !important;;
+    font-family: 'Montserrat' , sans-serif!important;
+border-bottom:2px solid gray;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+}
+
+.teksti__majtas::after {
+    content: '';
+    width:80px;
+    height:2px;
+    background-color: #121212;
+    position: relative;
+    top:2px;
+margin-top: 30px;
+
+}
+
+
+.fundi__galeria h1 {
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.fundi__galeria__rreshti {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin: 7px 0;
+}
+
+.fundi__galeria__rreshti img {
+    width:100px;
+    min-height:100px;
+    object-position: center;
+    object-fit: cover;
+    max-width:100%;
+    margin: 10px;
+}
+
+.fundi__galeria__rreshti img:hover {
+transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+filter: brightness(50%);
+}
+
+.fundi__ikonat {
+    width:100%;
+    min-height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fundi__ikonat i {
+        color:var(--ngjyrabardhe);
+
+    border-radius: 600px;
+    border: 1px solid white;
+    padding: 10px 11px;
+    margin: 0 10px;
+}
+
+.fundi__ikonat i:hover {
+ background-color:var(--ngjyrazeze);
+ color:white;
+ border: none;
+ padding: 15px;
+ transition: 1s ease-in-out;
+
+}
+
+.fundi .line {
+    width:100%;
+    max-width: 80%;
+    height: 2px;
+    min-height:2px;
+    background-color: lightgray;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px 0;
+    flex-direction: row;
+}
+
+button {
+    cursor: pointer;
+}
+.fundi .line i {
+    padding:20px;
+    background-color: #121212;
+    border-radius: 700px;
+    color: white;
+}
+
+.line i:hover {
+    background-color: white;
+    color: var(--ngjyrablu);
+    font-weight: bold;
+    transition: 1s all ease-in-out;
+}
+
+.fund__teksti {
+    width:100%;
+    min-height:100px;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fund__teksti h4 {
+        color:var(--ngjyrabardhe);
+margin: 0 40px;
+    font-family: 'Roboto' , sans-serif;
+font-weight: normal;
+}
+
+
+@media (max-width:1024px) {
+    .menyja__larte__rreshti {
+        width:100%;
+        max-width:100%;
+        display: flex;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menyja__kryesore__rreshti {
+        width: 100%;
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .forma__kontaktit__rreshti {
+        width: 100%;
+        max-width:100%;
+        margin-top: 0;
+    }
+
+    .forma__kontaktit__foto {
+        flex-grow: 1;
+    }
+
+    .prapavija__rreshti {
+        width:100%;
+        max-width:100%!important;
+    }
+
+    .prapavija__rreshti h1 {
+        width: 100%;
+        font-size:30px!important;
+        max-width:100%;
+        padding:0!important;
+        margin: 0 10px !important;
+        line-height: auto!important;
+    }
+
+    .kontakti__aplikimi {
+        flex-grow:1!important;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+
+.forma__rreshti {
+    width:100%;
+    max-width: 100%!important;
+}
+.forma__shtese {
+    flex-basis:100%;
+}
+.kontenti {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+
+    .forma__shtese:nth-child(5) {
+        width: 100%;
+        align-items: center;
+        justify-content: center!important;
+        display: flex;
+        flex-direction:column;
+    }
+
+.forma__teksti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 10%);
+}
+
+.destinacioni__rreshti {
+    max-width:100%!important;
+}
+
+.destinacioni__informata {
+    width:100%;
+    max-width:100%;
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+video {
+    width:100%;
+    height:100%;
+}
+
+.destinacioni__kolona  {
+    width:100%;
+    max-width:100%;
+    flex-grow: 1!important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sherbimet__shigjeta {
+    display: none;
+}
+
+.sherbimi {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rrethnesh__rreshti {
+    width: 100%;
+    max-width:100%!important;
+}
+
+.rrethnesh__majtas {
+    width:100%;
+}
+.foto_grup {
+    width:100%;
+}
+
+.foto_grup img {
+    width:100%!important;
+}
+
+.foto__informata {
+    width: 100%!important;
+    min-height: 450px!important;
+    margin: 0!important;
+    flex-grow: 1;
+}
+
+.rrethnesh__majtas #foto__3 {
+margin: 0!important;
+}
+
+.rrethnesh__djathtas {
+width: calc(100% - 10%)!important;
+max-width:100%!important;
+display: flex;
+text-align: center;
+align-items: center;
+}
+.rrethnesh__statistikat {
+    width:100%;
+    max-width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.statistika {
+    width:100%;
+    max-width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.opinionet__rreshti {
+    width:100%;
+    max-width:100%!important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opinioni {
+    flex-grow: 1;
+    text-align: left;
+
+}
+
+.stafi__ikonat {
+    display: none;
+}
+
+.stafi__teksti {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stafi__ekipi__rreshti {
+    width:100%;
+    max-width:100%;
+}
+
+.stafi__personi {
+    flex-grow: 1;
+}
+
+.abonimi__rreshti {
+    width: 100%;
+    max-width:100%;
+}
+
+.abonimi__teksti__rreshti {
+    width: 100%;
+    max-width: 100%!important;
+}
+.abonimi__foto {
+    flex-grow:1;
+}
+
+
+
+
+
+.abonimi__forma {
+    flex-basis:calc(70% -10%);
+    max-width:100% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
+.abonimi__forma input {
+    flex-basis:calc(100% - 10%);
+}
+
+.abonimi__teksti {
+    flex-basis:100%;
+    flex-grow: 1;
+}
+
+}
+
+@media (max-width:765px) {
+    .fundi__rreshti {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fundi__menyja h1 {
+        text-align: center!important;
+    }
+
+
+
+    .fundi__menyja {
+        flex-grow: 1;
+        width:100%;
+     max-width:100%;
+     display: flex;
+     align-items:center;
+     justify-content: center;
+     flex-direction: row;
+    }
+
+    .fundi__menyja__logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fundi__menyja__rreshti {
+        width: 100%;
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .fundi__menyja__rreshti nav {
+        margin:0!important;
+        flex-basis: 100%!important;
+    }
+
+    .fundi__menyja .fundi__artikujt  {
+        width: 100%;
+        max-width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fundi__artikujt__rreshti {
+        width: 100%!important;
+        max-width:100% !important;;
+    }
+
+    .fundi__artikulli {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+max-width: 100%!important;
+}
+
+.fundi__artikulli__teksti {
+    display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px 0;
+}
+
+.fundi__galeria {
+    width: 100%;
+    max-width: 100%;
+}
+.fundi__galeria__rreshti {
+    width: 100%;
+    max-width:100%;
+}
+
+.fundi__galeria img {
+    width:100%;
+}
+
+.abonimi__teksti {
+    flex-grow:1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:row;
+}
+
+.artikujt__rreshti {
+    width: 100%;
+    max-width:100%;
+}
+
+.artikulli {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 10px!important;
+}
+
+.arritjet {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.arritjet__rreshti {
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.arritja {
+    width:100%;
+}
+
+.menyja__supporti {
+    display:none;
+}
+
+.menyja__kryesore__rreshti {
+    width:100%;
+    display:flex;
+align-items:center;
+justify-content:center;
+flex-direction: column;
+flex-basis: 100px;
+}
+
+.menyja__larte__rreshti {
+    width: 100%;
+    max-width:100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menyja__kontakti {
+    width:100%;
+    min-height: 100px;
+        padding: 20px 0;
+
+    flex-basis: 0!important;
+}
+
+.menyja__ikonat {
+    width: 100%;
+    flex-basis: 0!important;
+    min-height:100px;
+}
+.menyja__linqet {
+    width:100%!important;
+    flex-basis: 0!important;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.menyja__linqet li {
+    padding:  0 8px;
+}
+
+.menyja__logo {
+    flex-basis:0;
+    width:100%;
+    min-height:50px;
+}
+
+.destinacioni__informata h1 {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.vendet h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sherbimet h1 {
+    font-size:20px;
+}
+.rrethnesh__djathtas h1 {
+    font-size:20px;
+}
+
+.opinionet h1 {
+    font-size:20px;
+}
+.abonimi__rreshti h1 {
+    text-align: center;
+}
+
+.abonimi__rreshti p {
+text-align: center;
+}
+
+.prapavija__rreshti h1 {
+    font-size: 30px;
+}
+.prapavija__rreshti p {
+    font-size:15px;
+}
+
+.abonimi__forma {
+    width: 100%!important;
+    max-width:90%;
+}
+
+.abonimi__forma input {
+    width:100%;
+}
+
+
+.abonimi__forma i {
+    padding:18px!important;
+}
+
+.fundi__ikonat {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fundi__ikonat i {
+    margin: 10px;
+}
+
+}
+
+/* @media only screen and (min-width:1900px) and (max-width:2560px){
+.prapavija__rreshti {
+    width:100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.forma__kontaktit__foto {
+    flex-basis: 761.5px!important;
+    display: flex;
+    align-items: flex-start!important;
+    justify-content: flex-start!important;
+}
+.destinacioni__kolona {
+    margin:0 70px!important;
+}
+
+.destinacioni__rreshti {
+    max-width:90%!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.destinacioni__informata {
+    flex-basis:600px;
+}
+	
+.abonimi__rreshti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stafi__teksti {
+    flex-basis:420px;
+}
+.menyja__linqet {
+    flex-basis:1000px;
+
+
+
+} */
+
+@media (min-width:1920px) {
+    .prapavija__rreshti {
+        width: 100%;
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .forma__kontaktit__rreshti {
+        max-width: 64.6%;
+    }
+
+    .destinacioni__informata {
+        flex-basis: 620px!important; 
+    }
+    .destinacioni__kolona {
+        flex-basis: 602px;
+        margin: 20px 45px;
+    }
+    .stafi__teksti {
+        width: 470px;
+}
+.abonimi__rreshti {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artikulli {
+    margin: 11px;
+}
+
+
+}
